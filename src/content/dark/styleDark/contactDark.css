@@ -1,0 +1,77 @@
+.contactdark {
+    padding: 100px 0 100px;
+    background: #1e2030;
+}
+
+.contactdark__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #F6F6F6;
+    margin-bottom: 20px;
+}
+
+.contactdark__subtitle {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F6F6F6;
+    margin-bottom: 30px;
+}
+
+.contactdark__btn {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F6F6F6;
+    background: #070707;
+    border-radius: 20px;
+    padding: 10px 0;
+    width: 280px;
+    display: block;
+    margin: 0 auto 80px;
+    border: 1px solid #070707;
+    outline: none;
+    transition: 0.3s;
+}
+.contactdark__btn:hover {
+    background: #1e2030;
+    transition: 0.3s;
+}
+
+.contactdark__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+.contactdark__img {
+    width: 40px;
+    height: 40px;
+}
+
+.contactdark__chat {
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #F6F6F6;
+}
+.contactdark__img-gmail {
+
+}
+.gmail__dark {
+    padding-top: 10px;
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}

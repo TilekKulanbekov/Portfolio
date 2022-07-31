@@ -1,0 +1,77 @@
+.contact {
+    padding: 100px 0 100px;
+}
+
+.contact__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 20px;
+}
+
+.contact__subtitle {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+    margin-bottom: 30px;
+}
+
+.contact__btn {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #070707;
+    border-radius: 20px;
+    padding: 8px 0;
+    width: 230px;
+    display: block;
+    margin: 0 auto 80px;
+    border: 1px solid #070707;
+    outline: none;
+    transition: 0.3s;
+}
+.contact__btn:hover {
+    background: #FFF;
+    color: #070707;
+    transition: 0.3s;
+}
+
+.contact__icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+.contact__img {
+    width: 40px;
+    height: 40px;
+}
+
+.contact__chat {
+    text-align: center;
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #828282;
+}
+.contact__img-gmail {
+
+}
+.gmail {
+    padding-top: 10px;
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}

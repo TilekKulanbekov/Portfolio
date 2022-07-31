@@ -1,0 +1,27 @@
+.language__btns {
+    position: absolute;
+    top: 184px;
+    right: 16%;
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    transform: rotate(-90deg);
+	 z-index: 10;
+}
+.btn {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.line {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}

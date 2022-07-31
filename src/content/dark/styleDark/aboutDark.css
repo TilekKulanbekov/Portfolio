@@ -1,0 +1,35 @@
+.aboutdark {
+    /*background: #131313;*/
+    background: #222434;
+    padding: 100px 0 100px;
+}
+
+.aboutdark__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #F2F2F2;
+    margin-bottom: 70px;
+}
+
+.aboutdark__row {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.aboutdark__subtitle {
+    font-family: Gilroy, sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.italic__dark {
+    font-style: italic;
+}

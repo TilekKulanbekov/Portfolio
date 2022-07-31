@@ -1,0 +1,51 @@
+.skills {
+    padding: 100px 0 100px;
+}
+
+.skills__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.skills__row {
+    display: flex;
+    justify-content: center;
+    row-gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 200px;
+}
+
+.skills__card {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills__img {
+    width: 100%;
+    height: 120px;
+}
+
+.skills__subtitle {
+    margin-top: 20px;
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: bold;
+    color: #828282;
+}
+
+.bootstrap {
+    width: 140px;
+}
+.react {
+    width: 140px;
+}

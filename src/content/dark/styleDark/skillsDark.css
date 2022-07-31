@@ -1,0 +1,55 @@
+.skillsdark {
+    background: #1e2030;
+    padding: 100px 0 100px;
+}
+
+.skillsdark__title {
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+    margin-bottom: 70px;
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #F6F6F6;
+}
+.skillsdark__row {
+    display: flex;
+    justify-content: center;
+    row-gap: 70px;
+    flex-wrap: wrap;
+    align-items: center;
+    column-gap: 200px;
+}
+
+.skillsdark__card {
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skillsdark__img {
+    width: 100%;
+    height: 120px;
+}
+
+.skillsdark__subtitle {
+    margin-top: 20px;
+    font-family: Gilroy, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    font-weight: bold;
+    color: #828282;
+}
+
+.margin__dark {
+    margin-top: 70px;
+}
+.bootstrap__dark {
+    width: 140px;
+}
+.react__dark {
+    width: 140px;
+}
