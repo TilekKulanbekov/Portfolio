@@ -33,4 +33,6 @@
 .homedark__img {
     display: block;
     margin: 10px auto 0;
+    max-width: 400px;
+    width: 100%;
 }

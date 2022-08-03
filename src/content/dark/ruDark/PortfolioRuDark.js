@@ -1,66 +1,104 @@
-import React from 'react';
-import '../styleDark/portfolioDark.css';
-import Todo from '../../../assets/todo.png';
-import Travel from '../../../assets/travel.png';
-import Weather from '../../../assets/weather.png';
-import Orion from '../../../assets/orion.png';
-import Mealdb from '../../../assets/mealdb.png';
-import Crypto from "../../../assets/Crypto.png";
-import Education from '../../../assets/education.png';
+import React from "react";
+import "../styleDark/portfolioDark.css";
+import Todo from "../../../assets/todo.png";
+import Travel from "../../../assets/travel.png";
+import Weather from "../../../assets/weather.png";
+import Kd from "../../../assets/kd.png";
+import Coffee from "../../../assets/coffee.png";
+import Logic from "../../../assets/Logic.png";
 
-const PortfolioRuDark = () => {
-    return (
-        <section id="portfolio" className="portfoliodark">
-            <div className="container">
-                <h2 className="portfoliodark__title">Портфолио</h2>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="https://negeniy228.github.io/Travel/">
-                        <img className="portfoliodark__img" src={Travel} alt="Travel"/>
-                    </a>
-                    <a className="portfoliodark__link" href="#">Travel - Homepage</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="https://education-js.herokuapp.com">
-                        <img className="portfoliodark__img" src={Education} alt="Education"/>
-                    </a>
-                    <a className="portfoliodark__link" target="_blank" href="https://education-js.herokuapp.com">Платформа
-                        для онлайн обучения</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="https://weather-iota-one.vercel.app/">
-                        <img className="portfoliodark__img" src={Weather} alt="Weather"/>
-                    </a>
-                    <a className="portfoliodark__link" href="#">Прогноз погоды - Homepage</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="https://appcrypto.vercel.app/">
-                        <img className="portfoliodark__img" src={Crypto} alt="Crypto"/>
-                    </a>
-                    <a target="_blank" className="portfoliodark__link" href="https://appcrypto.vercel.app/">Криптовалюта
-                        - Lymcoin</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="https://orion-ebon.vercel.app/">
-                        <img className="portfoliodark__img" src={Orion} alt="Orion Trans"/>
-                    </a>
-                    <a target="_blank" className="portfoliodark__link" href="https://orion-ebon.vercel.app/">Сайт для
-                        логистической компании - Орион Транс</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="http://mealdb-iota.vercel.app">
-                        <img className="portfoliodark__img" src={Mealdb} alt="Mealdb"/>
-                    </a>
-                    <a className="portfoliodark__link" href="#">Меню для ресторана - Homepage</a>
-                </div>
-                <div className="portfoliodark__card">
-                    <a target="_blank" href="http://todo-chi-two.vercel.app">
-                        <img className="portfoliodark__img" src={Todo} alt="TodoList"/>
-                    </a>
-                    <a className="portfoliodark__link" href="#">Веб приложение для планирования задач - Homepage</a>
-                </div>
-            </div>
-        </section>
-    );
+const PortfolioRu = () => {
+  return (
+    <section id="portfolio" className="portfolio">
+      <div className="container">
+        <h2 className="portfolio__title">Portfolio</h2>
+        <div className="portfolio__card">
+          <a
+            target="_blank"
+            href="https://tilekkulanbekov.github.io/travel-agency/"
+          >
+            <img className="portfolio__img" src={Travel} alt="Travel" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href="https://tilekkulanbekov.github.io/travel-agency/"
+          >
+            Путешествие - Главная страница
+          </a>
+        </div>
+        <div className="portfolio__card">
+          <a target="_blank" href=" https://leafy-kataifi-ca89b3.netlify.app/">
+            <img className="portfolio__img" src={Weather} alt="weather" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href=" https://leafy-kataifi-ca89b3.netlify.app/"
+          >
+            Онлайн прогноз погоды - Главная страница
+          </a>
+        </div>
+        <div className="portfolio__card">
+          <a
+            target="_blank"
+            href=" https://tilekkulanbekov.github.io/CoffeeStyle/"
+          >
+            <img className="portfolio__img" src={Coffee} alt="coffee" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href=" https://tilekkulanbekov.github.io/CoffeeStyle/"
+          >
+            Онлайн кофе маркет - Главная страница
+          </a>
+        </div>
+        <div className="portfolio__card">
+          <a target="_blank" href=" http://todo-chi-two.vercel.app">
+            <img className="portfolio__img" src={Todo} alt="TodoList" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href=" http://todo-chi-two.vercel.app"
+          >
+            Список дел - Главная страница
+          </a>
+        </div>
+        <div className="portfolio__card">
+          <a
+            target="_blank"
+            href=" https://tilekkulanbekov.github.io/Kd-adaptive/"
+          >
+            <img className="portfolio__img" src={Kd} alt="Kd" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href=" https://tilekkulanbekov.github.io/Kd-adaptive/"
+          >
+            Онлайн магазин запчастей - Главная страница
+          </a>
+        </div>
+        <div className="portfolio__card">
+          <a
+            target="_blank"
+            href=" https://tilekkulanbekov.github.io/LogicGates/"
+          >
+            <img className="portfolio__img" src={Logic} alt="Logic" />
+          </a>
+          <a
+            target="_blank"
+            className="portfolio__link"
+            href=" https://tilekkulanbekov.github.io/LogicGates/"
+          >
+            Контструктор Logic gates - Главная страница
+          </a>
+        </div>
+      </div>
+    </section>
+  );
 };
 
-export default PortfolioRuDark;
+export default PortfolioRu;
